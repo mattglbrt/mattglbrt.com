@@ -17,7 +17,8 @@ I put about 2 hours into the original jam-markdown repo and kept running into pr
 ### Priorities for today
 - [ ] Basic homepage layout with tailwind
 - [ ] Blog layout with tailwind
-- [ ] Reading times on posts
+- [x] Reading times on posts
+- [x] Connected to vercel to deploy on mattglbrt.com
 ### Maybe today, probably tomorrow
 - [ ] Navigation menu might push this to tomorrow but we will see
 - [ ] Redix Ui installed
