@@ -14,18 +14,22 @@ Today I am starting off by following this guide: https://www.swyx.io/download-tw
 
 I put about 2 hours into the original jam-markdown repo and kept running into problems stemming not being the one that built it out. I obivously need to be at the point one day where I can look someone elses code and make it work, but today is not that day. So I started fresh using the awesome tutorial in the Astro docs to create a new project using that. I stripped out the css and my plan is to install tailwind and start using that. The original repo I was using had tailwind, but I want to learn how to set it up and start using it myself. So now the goal is to rebuild that other repo myself.
 
+Today I learned about partial hydration and using Framer Motion to animate a logo fade in as well. 
+
 ### Priorities for today
-- [ ] Basic homepage layout with tailwind
+- [X] Basic homepage layout with tailwind
 - [ ] Blog layout with tailwind
 - [x] Reading times on posts
 - [x] Connected to vercel to deploy on mattglbrt.com
 ### Maybe today, probably tomorrow
-- [ ] Navigation menu might push this to tomorrow but we will see
+- [ ] Navigation menu 
 - [ ] Redix Ui installed
 
 ### Resources used
 * https://fireship.io/ Last night I started going through fireship.io course, specifically the git and vs code courses as refreshers. Ive used both for years, but wanted to make sure I had full comprehension of the tools
 * https://docs.astro.build/en/tutorial/0-introduction/ I followed this tutorial inside of the repo that Daniel set up for me. This way I was using our defined stack but also had the tutorial blog ready to build upon. I didn't want to totally reinvent the wheel.
+* https://www.framer.com/motion/
+* https://tailwindui.com This is going to save me so much time and pretty much replace wordpress and elementor for me going forward.
 
 ### Courses Complete
 #### Fireship's Full Course on Git
