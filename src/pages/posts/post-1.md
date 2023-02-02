@@ -1,29 +1,41 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
-pubDate: 2022-07-01
+title: '100 Days of Code - Day 1'
+pubDate: 2023-02-01
 description: "This is the first post of my new Astro blog."
-author: "Astro Learner"
+author: "Matt Gilbert"
 image:
   url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"
   alt: "The Astro logo with the word One."
-tags: ["astro", "blogging", "learning in public"]
+tags: ["astro", "100 Days of Code", "learning in public"]
 ---
+Today is really about just knocking the rust off and geting back into coding with a coordinated effort and real concrete goals. I want to start fresh so I factory reset my macbook and had to set up a dev environment. I went through the usual steps of installing VScode, Home Brew, Xcode tools, git, and some recommended VS Code extensions from @danielsnell.
 
-# My First Blog Post
+He also set me up with a repo for starting a few of our internal projects that I am going to use as a base to build out some of the coming projects. My focus for today is learning Astro, which I have already gone through every step of their great tutorial in teh their official docs and finished that, but now I am going in a little deeper on the markdown.
 
-Published on: 2022-07-01
+Today I followed the full astro tutorial and then went into the two docs pages about markdown specifically and creating collections. 
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+At the end of coding today I have a functioning but ugly as hell blog with:
+* Astro
+* Tailwind
+* Typescript
+* Radix-UI
+* Svelte
 
-## What I've accomplished
+Calling this first day a massive success. I also started looking at next and sanity starters in the evening but we just kidn of playing around.
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+## Goals for today:
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+- [x] Set up mac dev environment
+- [x]  Learn how to pull dynamic files into a template
+- [x] Set Up Jam-markdown repo from Daniel
+- [x] Set up repo for personal blog
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+## Plan for tomorrow
+- [ ] Build  homepage in tailwind
+- [ ] Built  blog page template
+- [ ] Build About Page
 
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+#### Resources
+-   Follow Markdown Tutorial [https://docs.astro.build/en/guides/markdown-content/](https://docs.astro.build/en/guides/markdown-content/)
+-   Creating a Collection: [https://docs.astro.build/en/guides/content-collections/](https://docs.astro.build/en/guides/content-collections/)
