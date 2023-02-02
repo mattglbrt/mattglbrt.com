@@ -74,7 +74,7 @@ export default function Example() {
             Welcome to the digital garden of Matthew Gilbert.
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            I am building this site mostly for myself, but if you are here, I hope that you find something useful here.
+            I am building this site mostly for myself, but if you are here, I hope that you find something useful.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
