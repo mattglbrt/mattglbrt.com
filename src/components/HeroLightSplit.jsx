@@ -1,7 +1,11 @@
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import React from "react"
+import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import { motion } from "framer-motion";
+
 
 export default function Example() {
+
+  
   return (
     <div className="relative isolate overflow-hidden bg-gray-900">
       <svg
@@ -54,11 +58,14 @@ export default function Example() {
       </svg>
       <div className="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:py-40 lg:px-8">
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
-          <img
-            className="h-11"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-            alt="Your Company"
-          />
+        <motion.img
+          className="h-11"
+          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+          alt="Your Company"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+        />
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a href="/blog" className="inline-flex space-x-6">
               <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
