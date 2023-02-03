@@ -67,12 +67,12 @@ export default function Example() {
           transition={{ duration: 1 }}
         />
           <div className="mt-24 sm:mt-32 lg:mt-16">
-            <a href="/blog" className="inline-flex space-x-6">
+            <a href="/posts/day-3" className="inline-flex space-x-6">
               <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
-               100 Days of Code
+              Day 3
               </span>
               <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
-                <span>I have no idea what I'm doing</span>
+                <span>100 Days of Code</span>
                 <ChevronRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
               </span>
             </a>
